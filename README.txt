@@ -1,12 +1,5 @@
-SAVEETHA SCHOOL OF ENGINEERING - COMPILER DESIGN LAB
-=====================================================
-
 COMPILATION INSTRUCTIONS:
 --------------------------
-For C programs (exp1.c to exp18.c):
-    gcc expN.c -o expN
-    ./expN
-
 For LEX/FLEX programs (exp19.l to exp40.l):
     flex expN.l
     gcc lex.yy.c -o expN -lfl
