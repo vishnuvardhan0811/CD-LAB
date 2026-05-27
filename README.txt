@@ -1,12 +1,9 @@
 COMPILATION INSTRUCTIONS:
 --------------------------
 For LEX/FLEX programs (exp19.l to exp40.l):
-    flex expN.l
-    gcc lex.yy.c -o expN -lfl
-    ./expN
-
-Or combined:
-    flex expN.l && gcc lex.yy.c -o expN -lfl && ./expN
+    flex exp22.l
+    gcc lex.yy.c -o output22
+    output22
 
 EXPERIMENT LIST:
 ----------------
